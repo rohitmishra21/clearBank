@@ -6,6 +6,8 @@ import Icon from './components/Icon'
 import Content from './components/content'
 import Product from './components/Product'
 import PrintText from './components/PrintText'
+import Client from './components/Client'
+import ClearBank from './components/ClearBank'
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
        <Content/>
        <Product/>
        <PrintText/>
+       <Client/>
+       <ClearBank/>
     </>
  
   )
